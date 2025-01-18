@@ -16,14 +16,15 @@ export default function () {
           <Card className="overflow-hidden">
             <div className="flex items-start justify-between p-6">
               <div className="space-y-4">
-                <h2 className="text-2xl font-bold">You are now signed in</h2>
+                <h2 className="text-2xl font-bold">Welcome to SparkVision</h2>
                 <div className="space-y-2">
                   <p className="text-base">
-                    You made it into <b>{gadgetConfig.env.GADGET_APP}</b>!
                   </p>
                   <p className="text-base">
-                    Now, you can start building your app&apos;s signed in area.
+                    SparkVision uses computer vision to monitor your surroundings in real time, quickly detecting hazards like smoke and fire. Designed for both indoor and outdoor use, it ensures safety with fast, reliable threat detection.
+
                   </p>
+
                 </div>
                 <Button
                   variant="outline"
