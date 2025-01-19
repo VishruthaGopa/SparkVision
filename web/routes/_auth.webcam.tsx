@@ -54,7 +54,7 @@ export default function WebcamView() {
             <AlertDescription>{error}</AlertDescription>
           </Alert>
         ) : (
-          <div className="relative w-full aspect-video bg-slate-100 rounded-lg overflow-hidden">
+          <div className="relative w-1/2 aspect-video bg-slate-100 rounded-lg overflow-hidden mx-auto">
             {isLoading && (
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
