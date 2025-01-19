@@ -17,7 +17,14 @@ export default function () {
 
   return (
     <div className="w-screen h-screen grid place-items-center">
-      <Outlet context={context} />
+ 
+      <div className="flex flex-col items-center gap-8">
+        <img
+          src="/public/logo_sparkvision.png"
+          alt="SparkVision Logo"
+          className="h-8 w-auto" />
+        <Outlet context={context} />
+      </div>
     </div>
   );
 }

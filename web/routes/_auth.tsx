@@ -115,8 +115,8 @@ export default function () {
           <div className="h-16 flex items-center px-6 border-b">
             <Link to="/" className="flex items-center">
               <img
-                src="/api/assets/autologo?background=dark"
-                alt="Lead Palooza"
+                src="/api/assets/autologo?background=dark" 
+                alt="SparkVision Logo"
                 className="h-8 w-auto"
               />
             </Link>
@@ -144,6 +144,17 @@ export default function () {
             >
               <Users className="mr-3 h-4 w-4" />
               Alert History
+            </Link>
+             <Link
+              to="/webcam"
+              className={`flex items-center px-4 py-2 text-sm rounded-md transition-colors
+                ${location.pathname === "/webcam"
+                  ? "bg-accent text-accent-foreground"
+                  : "hover:bg-accent hover:text-accent-foreground"
+                }`}
+            >
+              <Users className="mr-3 h-4 w-4" />
+              Webcam
             </Link>
 
           </nav>
