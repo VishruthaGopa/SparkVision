@@ -46,7 +46,7 @@ export default function WebcamView() {
   return (
     <Card className="w-full">
       <CardHeader>
-        <CardTitle>Live Webcam Feed</CardTitle>
+        <CardTitle>Live Camera Feed</CardTitle>
       </CardHeader>
       <CardContent>
         {error ? (
